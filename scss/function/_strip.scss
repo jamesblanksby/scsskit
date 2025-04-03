@@ -1,0 +1,7 @@
+/**
+ * Ensures numeric values are returned without units.
+ * @since 1.0.0
+ */
+@function strip($value) {
+    @return math.div($value, (($value * 0) + 1));
+}

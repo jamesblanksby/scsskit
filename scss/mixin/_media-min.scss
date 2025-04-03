@@ -1,0 +1,11 @@
+/**
+ * Creates a media query with a minimum width constraint.
+ * @since 1.0.0
+ */
+@mixin media-min($min) {
+    & {
+        @include media-query(null, $min) {
+            @content;
+        }
+    }
+}

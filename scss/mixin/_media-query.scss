@@ -1,0 +1,21 @@
+/**
+ * Creates a media query with optional max and min width constraints.
+ * @since 1.0.0
+ */
+@mixin media-query($max: null, $min: null) {
+    & {
+        @if $max != null and $min != null {
+            @media (max-width: #{$max}) and (min-width: (#{$min + 1px})) {
+                @content;
+            }
+        } @else if $max != null {
+            @media (max-width: #{$max}) {
+                @content;
+            }
+        } @else if $min != null {
+            @media (min-width: (#{$min + 1px})) {
+                @content;
+            }
+        }
+    }
+}

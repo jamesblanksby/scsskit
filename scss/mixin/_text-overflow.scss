@@ -1,0 +1,8 @@
+// @TODO
+@mixin text-overflow($overflow: ellipsis) {
+    & {
+        overflow: hidden;
+        text-overflow: $overflow;
+        white-space: nowrap;
+    }
+}

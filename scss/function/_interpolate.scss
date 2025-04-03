@@ -1,0 +1,7 @@
+/**
+ * Interpolates a value between two ranges based on viewport width.
+ * @since 1.0.0
+ */
+ @function interpolate($upper, $lower, $start, $finish) {
+    @return calc(((((100svw - #{$lower}) / #{strip(($upper - $lower))}) * (#{strip($start - $finish)})) + (#{strip($finish)} * 1px)));
+}

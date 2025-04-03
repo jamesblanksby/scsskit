@@ -1,0 +1,13 @@
+{
+    "name": "@jamesblanksby/scsskit",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamesblanksby/scsskit.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jamesblanksby/scsskit/issues"
+    },
+    "homepage": "https://github.com/jamesblanksby/scsskit#readme"
+}

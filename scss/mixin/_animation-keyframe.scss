@@ -1,0 +1,10 @@
+// @TODO
+@mixin animation-keyframe($name: null) {
+    & {
+        $name: default($name, unique-id());
+        animation-name: $name;
+        @keyframes #{$name} {
+            @content;
+        }
+    }
+}

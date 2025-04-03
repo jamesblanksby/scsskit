@@ -1,0 +1,11 @@
+/**
+ * Creates a media query with a maximum width constraint.
+ * @since 1.0.0
+ */
+@mixin media-max($max) {
+    & {
+        @include media-query($max) {
+            @content;
+        }
+    }
+}

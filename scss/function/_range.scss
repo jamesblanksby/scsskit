@@ -1,0 +1,7 @@
+/**
+ * Generates a responsive range using interpolation and clamping.
+ * @since 1.0.0
+ */
+ @function range($min, $max, $upper, $lower) {
+    @return clamp(#{$min}, #{interpolate($upper, $lower, $max, $min)}, #{$max});
+}

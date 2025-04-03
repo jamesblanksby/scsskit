@@ -1,0 +1,8 @@
+/**
+ * Scales a value using logarithmic scaling.
+ * @since 1.0.0
+ */
+@function scale($scale, $factor: 8) {
+    $value: strip($scale);
+    @return math.div($value, math.log($value, $factor));
+}

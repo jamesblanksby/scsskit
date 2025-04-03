@@ -1,0 +1,8 @@
+/**
+ * Returns the given value if not null, otherwise returns the default value.
+ * @since 1.0.0
+ */
+@function default($value: null, $default) {
+    $value: $default !default;
+    @return $value;
+}

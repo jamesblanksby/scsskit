@@ -1,0 +1,7 @@
+/**
+ * Calculates the width of a column with a specified gutter.
+ * @since 1.0.0
+ */
+@function column($column, $count, $width, $gutter) {
+    @return calc(((($width + $gutter) * ($column / $count)) - $gutter));
+}
