@@ -1,8 +1,11 @@
 /**
- * Creates a media query with optional max and min width constraints.
+ * Applies media query using optional max and/or min breakpoints.
  * @since 1.0.0
  */
 @mixin media-query($max: null, $min: null) {
+    $max: if($max != null, if(unit($max) == 'px', $max, nth($breakpoint, $max)), null);
+    $min: if($min != null, if(unit($min) == 'px', $min, nth($breakpoint, $min)), null);
+
     & {
         @if $max != null and $min != null {
             @media (max-width: #{$max}) and (min-width: (#{$min + 1px})) {

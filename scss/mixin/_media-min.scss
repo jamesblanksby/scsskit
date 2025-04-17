@@ -1,5 +1,5 @@
 /**
- * Creates a media query with a minimum width constraint.
+ * Wraps content in a min-width media query.
  * @since 1.0.0
  */
 @mixin media-min($min) {

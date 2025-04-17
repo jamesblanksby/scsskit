@@ -1,4 +1,7 @@
-// @TODO
+/**
+ * Applies single-line text overflow with optional style.
+ * @since 1.0.0
+ */
 @mixin text-overflow($overflow: ellipsis) {
     & {
         overflow: hidden;

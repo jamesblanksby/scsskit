@@ -1,4 +1,7 @@
-// @TODO
+/**
+ * Applies full inset positioning on all sides.
+ * @since 1.0.0
+ */
 @mixin position-inset($position) {
     & {
         position: $position;

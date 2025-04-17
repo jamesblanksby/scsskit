@@ -1,4 +1,7 @@
-// @TODO
+/**
+ * Centers element using position and translate.
+ * @since 1.0.0
+ */
 @mixin position-center($position) {
     & {
         position: $position;

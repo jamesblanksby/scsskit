@@ -1,4 +1,7 @@
-// @TODO
+/**
+ * Positions element to fully cover its parent.
+ * @since 1.0.0
+ */
 @mixin position-cover($position) {
     & {
         position: $position;

@@ -1,4 +1,7 @@
-// @TODO
+/**
+ * Hides element visually while keeping it accessible.
+ * @since 1.0.0
+ */
 @mixin visually-hidden() {
     & {
         all: unset;

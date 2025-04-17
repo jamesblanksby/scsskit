@@ -1,5 +1,5 @@
 /**
- * Creates a media query with a maximum width constraint.
+ * Wraps content in a max-width media query.
  * @since 1.0.0
  */
 @mixin media-max($max) {

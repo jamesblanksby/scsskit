@@ -1,8 +1,8 @@
 /**
  * Calculates responsive spacing by scaling a base value.
- * @since 1.1.0
+ * @since 1.0.0
  */
-@function space($space, $upper, $lower, $base: 8) {
+@function space($space, $upper: null, $lower: null, $base: 8) {
     $value: ($space * $base);
     $min: math.round((scale($value) * 1px));
     $max: ($value * 1px);
