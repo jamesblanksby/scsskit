@@ -1,13 +1,13 @@
 {
-    "name": "@jamesblanksby/scsskit",
+    "name": "@jamesblanksby/sasskit",
     "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jamesblanksby/scsskit.git"
+        "url": "git+https://github.com/jamesblanksby/sasskit.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jamesblanksby/scsskit/issues"
+        "url": "https://github.com/jamesblanksby/sasskit/issues"
     },
-    "homepage": "https://github.com/jamesblanksby/scsskit#readme"
+    "homepage": "https://github.com/jamesblanksby/sasskit#readme"
 }

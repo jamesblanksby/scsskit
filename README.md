@@ -1,4 +1,4 @@
-# 🧰 scsskit
+# 🧰 sasskit
 
 > A collection of reusable mixins and utilities.
 
@@ -7,5 +7,5 @@
 ### Install
 
 ```shell
-$ npm install @jamesblanksby/scsskit
+$ npm install @jamesblanksby/sasskit
 ```
